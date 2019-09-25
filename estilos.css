@@ -1,0 +1,50 @@
+* .font-family{
+    font-family: 'Roboto', sans-serif; 
+}
+.box-model{
+    width:  360px;
+    padding: 45px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+
+}
+.background{
+    background-color: #76b852;
+}
+/* agragamos una clase comun para los tres elementos y otras que los distingan del resto */
+.form-element{
+    height: 46px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border: 0;
+}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.input-size{
+    background-color: #f2f2f2;
+}
+h1 {font-family: 'roboto sans serif';}
+
+button:hover {background-color: #255428}
+
+.position {
+    width: 15px;
+    position: relative;
+    color: #4CAF50;
+}
+
+.icon {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
